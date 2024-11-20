@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asthma Data Visualization</title>
+</head>
+<body>
+    <h1>Asthma Data Visualization for 2021</h1>
+    <div>
+        <h2>Influenza Vaccination among Adults with Asthma (2021)</h2>
+        {{ flu_map_html|safe }}
+    </div>
+    <div>
+        <h2>Pneumococcal Vaccination among Adults with Asthma (2021)</h2>
+        {{ pneumo_map_html|safe }}
+    </div>
+    <div>
+        <h2>Current Asthma Prevalence among Adults (2021)</h2>
+        {{ asthma_map_html|safe }}
+    </div>
+</body>
+</html>
